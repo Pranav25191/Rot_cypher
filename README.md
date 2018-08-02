@@ -2,9 +2,9 @@
 A simple ROT cipher program in python.
 
 ```
-Usage: rot.py -k <key> [-e,-d] -s <message>
+Usage: rot.py -k <key> [-e,-d,-b] -s <message>
     -k <key> ROT Key 0-25   
-    [-e,-d] Encrypt/Decrypt   
+    [-e,-d,-b] Encrypt/Decrypt/Brute force(decrypt)  
     -s <message> String to pass into the cipher
 ```
 ### Background
